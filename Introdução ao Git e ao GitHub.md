@@ -28,7 +28,8 @@ echo -e 'blob 9\0conteudo' |openssl --stdin
 ```
 
 2. Trees
-São estruturas de dados que podem apontar para outros objetos (blobs, trees, commits), 
+São estruturas de dados que podem apontar para outros objetos (blobs, trees, commits).
+
 ``` 
 Tree
 \0
@@ -44,7 +45,8 @@ parent a98acq1
 autor marcelocamacho
 mensagem "inicia ...."
 timestamp 
-``
+```
+
 ### SSH e Tokens
 
 ```
